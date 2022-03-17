@@ -1,5 +1,5 @@
 <?php
-    require __DIR__ . '/../app/src/app.php';
+    require __DIR__ . '/app/src/app.php';
 ?>
 
 <!DOCTYPE html>
@@ -26,14 +26,14 @@
 
 <body>
 <?php
-            include('../app/views/header.php');
-            include('../app/views/content.php');
-            include('../app/views/footer.php');
+            include('/app/views/header.php');
+            include('/app/views/content.php');
+            include('/app/views/footer.php');
         ?>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
-<script src="../app/js/script.js"></script>
+<script src="/app/js/script.js"></script>
 
 </body>
 
